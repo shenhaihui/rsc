@@ -3,8 +3,6 @@
 This repository contains the source codes used in the following paper:
 * Shen, Haihui, L. Jeff Hong, and Xiaowei Zhang (2020). Ranking and selection with covariates for personalized decision making. Submitted to *INFORMS Journal on Computing*.
 
-You may also download the entire package by clicking this [link](https://github.com/SimOpt/simopt.github.io/blob/master/code/paperR&S-C2020/R&S-C2020.zip?raw=true) or at this [page](https://simopt.github.io).
-
 ### Disclaimer
 LICENSE: Redistribution and use in source and binary forms, with or without modification, are permitted, under the terms of the [BSD license](./BSD_License.txt).
 
