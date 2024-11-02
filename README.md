@@ -1,7 +1,7 @@
 # Source Codes of Ranking and Selection with Covariates
 
 This repository contains the source codes used in the following paper:
-* Shen, Haihui, L. Jeff Hong, and Xiaowei Zhang (2021). Ranking and selection with covariates for personalized decision making. *INFORMS Journal on Computing*, **33**(4):1500-1519..
+* Haihui Shen, L. Jeff Hong, and Xiaowei Zhang (2021). [Ranking and selection with covariates for personalized decision making](https://doi.org/10.1287/ijoc.2020.1009). *INFORMS Journal on Computing*, **33**(4):1500-1519..
 
 ### Disclaimer
 LICENSE: Redistribution and use in source and binary forms, with or without modification, are permitted, under the terms of the [BSD license](./BSD_License.txt).
