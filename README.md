@@ -10,11 +10,11 @@ WARNING: These codes are written only for the purpose of demonstration and verif
 clarity, generality, and efficiency has not been well considered.
 
 ## 1 Introduction
-The `\R&S-C2020` folder contains the entire MATLAB implementations of all the numerical experiments and case study in Shen et al. (2020). The codes are split into the following
+The `\R&S-C2020` folder contains the entire MATLAB implementations of all the numerical experiments and case study in Shen et al. (2021). The codes are split into the following
 three folders.
-* `\NumericalExperiments`, contains codes for numerical experiments in Shen et al. (2020, §6, EC.6).
-* `\RobustnessTest`, contains codes of the robustness test to linearity assumptions in Shen et al. (2020, §7.2).
-* `\EsophagealCancer`, contains codes of the case study of personalized treatment for cancer prevention in Shen et al. (2020, §8).
+* `\NumericalExperiments`, contains codes for numerical experiments in Shen et al. (2021, §6, EC.6).
+* `\RobustnessTest`, contains codes of the robustness test to linearity assumptions in Shen et al. (2021, §7.2).
+* `\EsophagealCancer`, contains codes of the case study of personalized treatment for cancer prevention in Shen et al. (2021, §8).
 
 ## 2 Installation
 The codes were written and run in MATLAB R2018b, on Windows 7 Enterprise 64-bit OS,
@@ -23,7 +23,7 @@ with Intel i9-9900K CPU @ 3.60 GHz, 16 GB RAM.
 To install the MATLAB codes, just copy the entire folder `\R&S-C2020` into your MATLAB directory, or change the path of MATLAB to the folder `\R&S-C2020`
 
 ## 3 Details on Numerical Experiments and Case Study
-### 3.1 Numerical Experiments in Shen et al. (2020, §6, EC.6)
+### 3.1 Numerical Experiments in Shen et al. (2021, §6, EC.6)
 Get into folder `\NumericalExperiments`.
 * To run Procedure TS and TS+ for all the 13 problems with pre-specified target
 <img src="https://latex.codecogs.com/svg.latex?{\text{PCS}_{\text{E}}\geq{1-\alpha}}">, run script `PCSE.m`, which is self-explanatory.
@@ -34,10 +34,10 @@ Get into folder `\NumericalExperiments`.
 <img src="https://latex.codecogs.com/svg.latex?{\text{PCS}_{\text{min}}\geq{1-\alpha}}">, run script `PCSmin.m`, which is self-explanatory.
  Scripts `find_h_hom_PCSmin.m` and `find_h_het_PCSmin.m` are functions to calculates the constant <img src="https://latex.codecogs.com/svg.latex?{h}"> of Procedure TS and constant <img src="https://latex.codecogs.com/svg.latex?{h_{\text{Het}}}"> of Procedure TS+ , respectively.
 
-### 3.2 Robustness Test in Shen et al. (2020, §7.2)
+### 3.2 Robustness Test in Shen et al. (2021, §7.2)
 Get into folder `\RobustnessTest`, and run script `RobustnessTest.m`, which is self-explanatory.
 
-### 3.3 Case Study in Shen et al. (2020, §8)
+### 3.3 Case Study in Shen et al. (2021, §8)
 Get into folder `\EsophagealCancer`.
 * The script `EsophagealCancerSim.m` is the implementation of a discrete-time Markov chain model that simulates the progression of Barrett’s esophagus (BE) to esophageal
 adenocarcinoma (EAC), which was developed by Hur et al. (2004) and Choi et al. (2014). See more details [here](https://simopt.github.io/ECSim).
